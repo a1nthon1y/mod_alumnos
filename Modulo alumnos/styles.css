@@ -1,0 +1,253 @@
+/*#divIngForm {
+    width: 50%;
+    height: 80%;
+}*/
+
+#div-izq, #div-der, #div-izq-1, #div-der-1, #div-center, #div-btn {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#div-izq {
+    width:53%;
+    float: left;
+}
+
+#div-der {
+    width: 45%;
+    float: right;
+    margin-left:10px;
+}
+
+#div-izq-1 {
+    width:60%;
+    float: left;
+}
+
+#div-der-1 {
+    width: 38%;
+    float: right;
+    margin-left:10px;
+}
+
+#div-center{
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+}
+
+#div-btn{
+  border: none;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+ #div-izq-2{
+    float: left;
+    margin-top: 10px;
+    height: auto;
+    text-align:center;
+}
+
+#div-der-2 {
+    float: right;
+    margin-top: 10px;
+    height: auto;
+    text-align:center;
+    margin-left:10px;
+}
+
+
+#div-izq-2, #td-izq-2 {
+    width:50%;
+}
+
+#div-der-2, #td-izq-2 {
+    width:48%;
+}
+
+#div-izq-3 {
+    width:60%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-top:15px;
+    height: auto;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+#div-der-3 {
+    width:38%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    float: right;
+    margin-top:15px;
+    margin-left:10px;
+    height: auto;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+.tbody {
+    display:block;
+    max-height:200px;
+    overflow-y: scroll;
+}
+
+.thead, .tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+
+
+#heading{
+    text-align: center;
+    height:auto;
+}
+
+#btn-agregar-eliminar{
+  float: right;
+}
+
+#divTabla{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+/*Para cambiar el ancho de los container*/
+@media (min-width: 400px) {
+    #Paneles > .container{
+        max-width: 800px;
+    }
+}
+
+/*Separar botones entre si
+
+.btn-success{
+    margin-right: 40px;
+}
+
+.btn-info{
+    margin-left: 40px;
+}
+*/
+
+#registro > .panel-default, #modificacion > .panel-default, #consulta > .panel-default{
+  margin-top:0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+body { 
+ background: url('imagenes/Photo1.png') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height:auto;
+}
+
+.panel-default {
+ opacity: 0.95;
+}
+
+.form-group.last {
+ margin-bottom:0px;
+}
+
+footer {
+  opacity: 0.8;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  width:100%;
+  height:auto;
+  position: relative;
+}
+
+footer > p{
+  font-family:Franklin Gothic Medium;
+  font-size:20px;
+}
+
+.container {
+  height:auto;
+  margin-bottom:50px;
+}
+
+.container > h2{
+  color:white;
+}
+
+/*PARA LAS IMAGENES DE PERDIL*/
+
+.file-preview {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#preview {
+  width:120px;
+  height:120px;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    background: 0 0;
+    cursor: inherit;
+    display: block;
+}
+
+input[type=file] {
+    display: block;
+}
+
+#botonID:hover{
+ /* height:25px;
+  width:203px;*/
+  /*float: left;*/
+  background-color: #9ACD32;
+}
+
+
+
+/*Para el submenu*/
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}
+.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;
+margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
